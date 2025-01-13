@@ -1,11 +1,19 @@
-body{
-   
-    background-color:#D9B504;
+body {
+    background-color: #D9B504;
 }
-
-header{
+header {
     background-color: #D96B0B;
     border: #BF0404 solid 10px;
+    display: flex;
+    justify-content: center;
+}
+table {
+
+    display: flex;
+    justify-content: center;
+}
+tr, td {
+    border: solid #BF0404;
     display: flex;
     justify-content: center;
 }
