@@ -1,0 +1,34 @@
+body {
+    background-color: #D9B504;
+    width: 1000px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-family: 'comic sans MS';
+}
+header {
+    background-color: #D96B0B;
+    border: #BF0404 solid 10px;
+    display: flex;
+    justify-content: center;
+}
+table {
+
+    display: flex;
+    justify-content: center;
+}
+tr, td {
+    border: solid #BF0404;
+    display: flex;
+    justify-content: center;
+}
+.kep1{width:100%;
+    margin: 10px auto 10px auto;
+    width: 600px;
+    border: 10px solid #D96B0B;
+    
+}
+p{
+    font-size: larger;
+    border: 5px solid #D96B0B;
+    
+}
