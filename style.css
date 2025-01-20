@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: ;
+    src: url();
+}
 body {
     background-color: #D9B504;
 }
@@ -7,13 +12,50 @@ header {
     display: flex;
     justify-content: center;
 }
-table {
+th, td 
+{ 
+    height: 100px;
+    border: #F29F05 10px solid;
 
+}
+.kepek {
+    background-image: url(img/zamardi.jpg);
+    background-size: 100%;
+    width: 300px;
+}
+img {
+    width: 250px;
+}
+p, a {
     display: flex;
     justify-content: center;
 }
-tr, td {
-    border: solid #BF0404;
+#table {
+    overflow-x: auto;
+}
+ul {
+    list-style-type: none;
     display: flex;
     justify-content: center;
+}
+li {
+    border:#BF0404 solid 10px;
+    width: 750px;
+    height: 100px;
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+}
+a {
+    font-size: 150%;
+    color: #BF0404;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h4 {
+    text-align: center;
 }
